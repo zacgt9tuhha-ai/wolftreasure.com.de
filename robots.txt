@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wolftreasure.com.de/sitemap.xml

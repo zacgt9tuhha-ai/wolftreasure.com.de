@@ -1,0 +1,288 @@
+/*--------------------------------------------------------------
+  11. Newsletter
+----------------------------------------------------------------*/
+.cs_newsletter.cs_style_1,
+.cs_newsletter.cs_style_4 {
+  padding: 189px 145px 196px;
+  @media (max-width: 1400px) {
+    padding: 189px 100px 196px;
+  }
+  @media (max-width: 991px) {
+    padding: 100px 50px 100px;
+  }
+  @media (max-width: 575px) {
+    padding: 100px 30px 100px;
+  }
+  .cs_newsletter_form {
+    display: block;
+    width: 100%;
+  }
+  .cs_newsletter_form {
+    position: relative;
+  }
+  .cs_newsletter_form_input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 25px 0px;
+    outline: none;
+    color: #fff;
+    @media (max-width: 575px) {
+      padding: 20px 0px;
+      font-size: 22px;
+    }
+    &:focus {
+      border-color: var(--accent);
+    }
+    &::placeholder {
+      color: #fff;
+    }
+
+    &::-ms-input-placeholder {
+      color: #fff;
+    }
+  }
+  .cs_newsletter_form_btn {
+    position: absolute;
+    right: 0;
+    top: 33px;
+    background-color: transparent;
+    border: none;
+    @media (max-width: 575px) {
+      top: 22px;
+    }
+  }
+  .cs_newsletter_form_btn {
+    transition: all 0.3s ease;
+    color: #fff;
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}
+.cs_newsletter.cs_style_2 {
+  .cs_newsletter_form {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .cs_newsletter_in {
+    padding: 138px 0px 150px;
+    max-width: 1420px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    @media (max-width: 1600px) {
+      max-width: 1000px;
+    }
+    @media (max-width: 1400px) {
+      padding: 80px 0;
+    }
+  }
+  .cs_newsletter_form_input {
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+    padding: 0 350px 0 40px;
+    outline: none;
+    @media (max-width: 1400px) {
+      height: 80px;
+      padding: 0 225px 0 40px;
+    }
+    @media (max-width: 575px) {
+      height: 60px;
+      padding: 10px 25px;
+    }
+  }
+  .cs_newsletter_form_btn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: var(--accent);
+    color: #fff;
+    border: none;
+    height: 80px;
+    min-width: 315px;
+    border-radius: 50px;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    @media (max-width: 1400px) {
+      height: 70px;
+      min-width: 210px;
+    }
+    @media (max-width: 575px) {
+      min-width: 210px;
+      position: initial;
+      width: 100%;
+      height: 60px;
+      margin-top: 15px;
+      font-size: 21px;
+    }
+    &:hover {
+      background-color: var(--primary);
+    }
+  }
+  &.cs_type_1 {
+    .cs_newsletter_form {
+      max-width: 690px;
+    }
+    .cs_newsletter_form_input {
+      height: 70px;
+      padding: 0 240px 0 30px;
+      @media (max-width: 575px) {
+        height: 60px;
+        padding: 5px 25px;
+      }
+    }
+    .cs_newsletter_form_btn {
+      height: 60px;
+      min-width: 220px;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .cs_primary_bg {
+    .cs_newsletter.cs_style_2 {
+      .cs_newsletter_form_btn {
+        &:hover {
+          background-color: #fff;
+          color: var(--accent);
+        }
+      }
+    }
+  }
+}
+.cs_newsletter.cs_style_3 {
+  position: relative;
+  .cs_newsletter_form_input {
+    height: 70px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #dcdcdc;
+    border-radius: 50px;
+    padding: 0 190px 0 30px;
+    color: #fff;
+    outline: none;
+    @media (max-width: 575px) {
+      height: 60px;
+    }
+    &:focus {
+      border-color: var(--accent);
+    }
+    &::placeholder {
+      color: var(--border);
+    }
+
+    &::-ms-input-placeholder {
+      color: var(--border);
+    }
+  }
+  .cs_newsletter_form_btn {
+    width: 170px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--accent);
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    @media (max-width: 575px) {
+      position: initial;
+      width: 100%;
+      height: 60px;
+      margin-top: 15px;
+    }
+    &:hover {
+      background-color: #fff;
+      color: var(--primary);
+    }
+  }
+  &.cs_type_1 {
+    .cs_newsletter_form_input {
+      background-color: #f2f2f2;
+      border-color: #f2f2f2;
+      color: var(--primary);
+      &::placeholder {
+        color: var(--secondary);
+      }
+
+      &::-ms-input-placeholder {
+        color: var(--secondary);
+      }
+    }
+  }
+  &.cs_type_2 {
+    .cs_newsletter_form_input {
+      background-color: #f2f2f2;
+      border-color: #f2f2f2;
+      color: var(--primary);
+      padding-right: 315px;
+      @media (max-width: 575px) {
+        padding: 5px 25px;
+      }
+      &::placeholder {
+        color: var(--secondary);
+      }
+
+      &::-ms-input-placeholder {
+        color: var(--secondary);
+      }
+    }
+    .cs_newsletter_form_btn {
+      width: 300px;
+      background-color: var(--secondary);
+      color: #fff;
+      &:hover {
+        background-color: var(--primary);
+      }
+      @media (max-width: 575px) {
+        width: 100%;
+      }
+    }
+  }
+}
+.cs_newsletter.cs_style_4 {
+  display: flex;
+  padding: 0;
+  @media (max-width: 991px) {
+    flex-direction: column;
+  }
+  .cs_newsletter_left {
+    flex: none;
+    width: 50%;
+    @media (max-width: 1700px) {
+      width: 45%;
+    }
+    @media (max-width: 991px) {
+      width: 100%;
+      height: 350px;
+    }
+  }
+  .cs_newsletter_right {
+    flex: 1;
+    padding: 80px 105px 80px 125px;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    @media (max-width: 1600px) {
+      padding: 80px 60px 80px 60px;
+    }
+    @media (max-width: 991px) {
+      min-height: initial;
+    }
+    @media (max-width: 575px) {
+      padding: 80px 30px;
+    }
+  }
+  .cs_newsletter_in {
+    max-width: 730px;
+  }
+}
